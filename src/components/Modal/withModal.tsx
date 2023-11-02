@@ -27,28 +27,3 @@ export const withModal = <T extends WithModalProps>(WrappedComponent: React.Comp
 
 	return ComponentWithModal;
 };
-
-// ---------------------------------------------------------------------------------
-
-// type useModalReturnType = {
-// 	visible: boolean;
-// 	showModal: () => void;
-// 	closeModal: () => void;
-// };
-// type useModalProps = {
-// 	defaultVisible?: boolean;
-// };
-// const useModal = ({ defaultVisible = false }: useModalProps = {}): useModalReturnType => {
-// 	const [visible, setVisible] = useState(defaultVisible);
-
-// 	const showModal = useCallback(() => setVisible(true), [visible]);
-// 	const closeModal = useCallback(() => setVisible(false), [visible]);
-
-// 	return {
-// 		visible,
-// 		showModal,
-// 		closeModal,
-// 	};
-// };
-
-// export default useModal;
