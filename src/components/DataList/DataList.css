@@ -1,0 +1,26 @@
+.data-list {
+	/* palette */
+	--data-list-title: #666666;
+	/* palette */
+}
+
+.data-list__item {
+	font-size: 1.125rem;
+	line-height: 1.25rem;
+
+	display: flex;
+}
+.data-list__item + .data-list__item {
+	margin-block-start: 1rem;
+}
+
+.data-list__title {
+	color: var(--data-list-title);
+
+	margin-inline-end: 10px;
+}
+.data-list__title::after {
+	content: ':';
+}
+.data-list__description {
+}

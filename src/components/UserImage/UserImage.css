@@ -1,0 +1,18 @@
+.user-image {
+	/* palette */
+	--user-image-background: #f0f0f0;
+	/* palette */
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 3px;
+	background-color: var(--user-image-background);
+}
+.user-image--round {
+	border-radius: 50%;
+}
+
+.user-image__img {
+}

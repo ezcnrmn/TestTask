@@ -1,0 +1,28 @@
+.notification-container {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
+
+.notification {
+	/* palette */
+	--notification-color: #424242;
+	/* palette */
+
+	padding: 20px 30px;
+	display: flex;
+	align-items: center;
+
+	border-radius: 6px;
+	background-color: var(--notification-color);
+}
+.notification__title {
+	font-size: 1.125rem;
+	font-weight: 400;
+	color: var(--white);
+}
+.notification__close {
+	margin-inline-start: 20px;
+	height: 1.125rem;
+	width: 1.125rem;
+}

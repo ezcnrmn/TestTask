@@ -1,0 +1,11 @@
+.search-field {
+	width: 360px;
+	width: clamp(100px, 50vw, 360px);
+}
+
+.main {
+	max-width: 1200px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}

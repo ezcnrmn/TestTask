@@ -1,0 +1,23 @@
+.page {
+}
+.page__header {
+	display: flex;
+	align-items: center;
+}
+.page__header--big-space {
+	margin-block-end: 30px;
+}
+.page__header--medium-space {
+	margin-block-end: 20px;
+}
+.page__header--small-space {
+	margin-block-end: 10px;
+}
+
+.page__header-left {
+	margin-inline-end: 0.5em;
+}
+
+.page__header-right {
+	margin-inline-start: auto;
+}

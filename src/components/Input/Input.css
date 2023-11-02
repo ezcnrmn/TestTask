@@ -1,0 +1,33 @@
+.input {
+	/* palette */
+	--input-placeholder: #999999;
+	--input-border: #cccccc;
+	/* palette */
+
+	font-size: 0.875rem;
+
+	display: flex;
+	width: 100%;
+	padding: 9px 19px;
+
+	border-radius: 3px;
+	border: 1px solid var(--input-border);
+	background-color: var(--white);
+}
+
+.input__prefix {
+	margin-inline-end: 10px;
+}
+
+.input__field {
+	font-size: inherit;
+	line-height: 1;
+
+	width: 100%;
+
+	border: none;
+	outline: none;
+}
+.input__field::placeholder {
+	color: var(--input-placeholder);
+}

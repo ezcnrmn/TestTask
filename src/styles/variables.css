@@ -1,0 +1,17 @@
+:root {
+	/* fonts */
+	--font-size: 16px;
+
+	/* colors */
+	--font-primary: #000000;
+	--font-secondary: #a1a1a1;
+
+	--black: #000000;
+	--white: #ffffff;
+
+	--link: #005281;
+	--link-outline: #a1a1a1;
+
+	/* layout */
+	--gap: 1.25rem;
+}

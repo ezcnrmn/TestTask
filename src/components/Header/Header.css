@@ -1,0 +1,22 @@
+.header {
+	/* palette */
+	--header-text: #a1a1a1;
+	--header-border: #ebebeb;
+	/* palette */
+
+	padding: 30px 40px;
+	display: flex;
+	align-items: center;
+
+	border-bottom: 1px solid var(--header-border);
+}
+.header__title {
+	color: var(--header-text);
+	font-size: 1.375rem;
+	font-weight: 600;
+
+	margin-inline-end: 1em;
+}
+.header__content {
+	margin-inline-start: auto;
+}

@@ -1,0 +1,19 @@
+.user-info {
+	display: flex;
+}
+.user-info__user-image {
+	margin-inline-end: 30px;
+}
+
+.posts {
+	margin-block-start: 30px;
+}
+
+.action-column {
+	width: max-content;
+	display: flex;
+	align-items: center;
+}
+.action-column > * + * {
+	margin-inline-start: 10px;
+}
